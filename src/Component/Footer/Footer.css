@@ -1,0 +1,20 @@
+.main-footer {
+    color: white;
+    background-color: #dc3545;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  li{
+    font-size: 19px;
+  }
+  h4{
+    font-size: 33px;
+  }
+  .gv{
+    font-size: 30px;
+  }
+  .gv1{
+    font-size: 37px;
+  }

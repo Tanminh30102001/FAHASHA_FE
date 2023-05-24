@@ -1,0 +1,62 @@
+
+*{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.cover{
+background-color: white;
+width: 30em;
+height: 35em;
+position: relative;
+box-shadow: 0 0.188em 1.550em rgb(155,156, 156);
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.button-logout{
+
+    text-align: right;
+    margin-right: 50px;
+}
+.login-form{
+    
+    margin-top: 100px;
+
+}
+
+
+
+
+@media only screen and (min-device-width: 64em) {
+    .page {
+        font-size: 1.25em;
+    }
+
+    .cover {
+        width: 25%;
+        height: 65%;
+    }
+}
+.error {
+    border-color: red;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  .button-disabled {
+    cursor: not-allowed;
+  }
+.button-disabled:hover {
+    cursor:grab; /* hoặc chọn kiểu con trỏ chuột khác */
+  }

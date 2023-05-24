@@ -1,0 +1,78 @@
+.icon-bell span{
+    position:absolute;
+     margin-left: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #e94560;
+    font-size: 12px;
+    color: #fff;
+}
+.icon-bell{
+    
+    margin-top: 20px;
+    padding-bottom: 14px;
+    position: relative;
+}
+.logo{
+    margin-top: 15px;
+    height: 100%;
+    padding-bottom: 14px;
+    align-items: center;
+    
+}
+.wrapper{
+    background-color: #F0F0F0;
+}
+.icon{
+    display:flex;
+
+    justify-content: space-between;
+}
+.icon-cart span{
+    position:absolute;
+    margin-left: -10px;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   text-align: center;
+   background-color: #e94560;
+   font-size: 12px;
+   color: #fff;
+}
+.icon-cart{
+    margin-top: 20px;
+    padding-bottom: 14px;
+    position: relative;
+   
+}
+.btn-user{
+    border: none;
+}
+.icon-user{
+    margin-top: 20px;
+    padding-bottom: 14px;
+    position: relative;
+}
+.search-box{
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    width: auto;
+    padding: 0px;
+}
+.search-box input{
+   
+    width: 90%;
+    
+}
+
+.search-box button{
+    
+    padding: 5px;
+    align-items: center;
+}
+.user-name{
+    font-size: 10px;
+}
